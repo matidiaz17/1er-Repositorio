@@ -22,10 +22,6 @@ body{
     color: #ffffff;
 }
 
-section.portfolio{ text-align: center;
-    
-}
-
 h2{
     color: cornflowerblue;
     font-family: 'Titillium Web', sans-serif;
@@ -36,4 +32,18 @@ p{
     text-align: center;
     font-size: 20px;
     font-family:'titillium Web';
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
 }
