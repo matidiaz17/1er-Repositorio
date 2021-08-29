@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    font-family:serif;
+}
+body{background: linear-gradient(rgb(70, 154, 233), hsl(180, 2%, 88%)) ;}
+    
+
+ul{
+height: 300px;
+padding: 50px;
+text-align: center;
+justify-content:space-between;
+}
+footer{
+    justify-content: end;
+}

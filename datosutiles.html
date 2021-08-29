@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla</title>
+    <link rel="stylesheet" href="datosutiles.css">
+</head>
+<body>
+    <style> table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse};</style>
+<h1>DATOS UTILES</h1>
+
+<table class="table">
+    <tr>
+        <th>GEOGRAFIA Y CLIMA</th>
+        <th>UBICACION</th>
+        <th>IDENTIDAD ARGENTINA</th>
+        </tr>
+            <tr>
+                <td>Es común describir a la Argentina por sus impactantes contrastes, productos de su rica y variada geografía. Desde la Cordillera de los Andes al oeste, que bordea de norte a sur el país en el límite con Chile, con su cumbre máxima a los 6.960,8 metros con el Aconcagua, hasta la planicie pampeana y el litoral atlántico, pasando por serranías, numerosos bosques, selvas, desiertos y valles fértiles,  la biodiversidad de ecosistemas facilita también el desarrollo de una rica fauna y flora. Muchos de los sitios naturales que se encuentran en el país han sido protegidos como áreas o reservas, así como parques nacionales. Algunos de los principales hitos de la naturaleza acceden a un reconocimiento mayor en su carácter de Patrimonio de la Humanidad de la UNESCO.</td>
+            <td>La República Argentina, con casi 3,8 millones de Km2, se ubica en el Hemisferio Sur del continente americano. Sus 3.800 Km. de longitud se extienden desde los 22º hasta los 55º de latitud Sur. Limita con Uruguay, Paraguay, Brasil, Bolivia y Chile en sus fronteras y con el Océano Atlántico al este. El país se divide turísticamente en 6 regiones y políticamente en 24 provincias.</td>
+            <td>La Argentina tiene muchas particularidades que han recorrido el mundo en boca de sus visitantes. La personalidad desenvuelta de su gente, amigable, divertida y efusiva; la gastronomía típica que va desde el asado hasta el mate, pasando por los platos regionales y bocaditos con dulce de leche; las danzas tradicionales como el tango, baile de parejas a un ritmo de 2 por 4 que nace en Buenos Aires en el siglo XIX y hoy es difundido internacionalmente, ó el folklore, con las diferentes formas coreográficas que adopta en cada región; la pasión por el fútbol  y el fanatismo por sus principales clubes y jugadores, siendo Boca Juniors y River Plate los más populares, que llenan estadios y provocan proliferantes demostraciones de fanatismo en cada uno de sus encuentros; los juegos típicos como el Truco, juego de naipes en el que priman la suerte y la habilidad para mentir o engañar al adversario, ó los juegos de a caballo en las afueras de la ciudad que develan la fuerte influencia de la cultura española y la persistencia de las viejas tradiciones; y, cómo no, la personalidad que cada región en particular supo mantener y afianzar con el pasar de los años.</td>
+        </tr>
+</table>
+
+<h2>CONTACTO</h2>
+
+
+    <form class="form"
+        action="">
+        <label for="nombre y apellido">nombre y apellido(obligatorio)</label>
+        <input type="text" name="nombre_apellido">
+        
+        
+        <label for="edad">Edad(opcional)</label>
+        <input type="text" name="edad">
+        
+        
+        <label for="e-mail">e-mail(obligatorio)</label>
+        <input type="text"name="e-mail">
+        
+        
+        <label for="telefono">telefono(opcional)</label>
+        <input for="text" name="telefono">
+        
+        
+        <div>
+            <label for="edad">edad(obligatorio)</label>
+            <select name="edad" id="edad">
+                <option value="10a20">de 10a20 años</option>
+                <option value="20a40">20a40 años</option>
+                <option value="=40">=+40 años</option>
+            </select>
+        </div>
+        
+
+        <div>
+            <fieldset>
+                <legend>genero</legend>
+            <label for="masculino">masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masc">
+            
+            <label for="femenino">femenino</label>
+            <input type="radio" id="femenino" name="genero" value="fem">
+            
+            <label for="otro">otro</label>
+            <input type="radio" id="otro" name="genero" value="otro">
+        </fieldset>
+        </div>
+        
+        <div>
+            <label for="comentarios"></label>
+            
+            <textarea
+            name="comentarios"
+            id="comentarios"
+            cols="30"
+            rows="10"
+            ></textarea>
+        </div>
+        
+
+        <div>
+            <label for="suscripcion">recibir noticias</label>
+            <input
+            type="checkbox"
+            id="suscripcion"
+            name="recibirnoticias"
+            value="yes"
+            >
+        </div>
+        
+        <div>
+            <input type="reset" value="reset">
+        
+        
+
+        <input type="submit" value="enviar">
+    </div>
+    </form>
+
+    <footer>
+        <nav>
+            <a href="">indice</a>
+            <a href="index.html">inicio</a>
+        </nav>
+    </footer>
+</body>
+</html>
