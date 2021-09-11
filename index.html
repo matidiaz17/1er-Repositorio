@@ -3,13 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Argentravel</title>
+    <meta name="description" content="sitio de informacion de Argentina para el viajero">
+    <meta name="keywords" content="informacion,contenido util">
+    <title>Argentravel-home</title> 
     <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="estilo.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -24,11 +23,21 @@
     <title>Argetravel</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg">
-        <div class="container">
+        <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="imagenes/logo_small.png" class="logo-brand" alt="logo"></a>
         <i class="icon ion-md-menu"></i>
+
+        <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria aria-expanded="false"
+            aria aria-label="Toogle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
         <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
@@ -37,9 +46,8 @@
                 <li class="nav-item">
                 <a class="nav-link" href="cosasparahacer.html">Cosas para hacer</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="diasdeestadia.html" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
-                        Dias de Estadia
+                <li class="nav-item">
+                    <a class="nav-link" href="diasdeestadia.html">dias de estadia</a>
                     </a>
         </li>
                 </ul>
@@ -60,39 +68,37 @@
             </div>
             </section>
 
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel inner">
-                <div class="carousel-item active">
-                    <img src="imagenes/imagen 2.jpg" class="d-block w-90" alt="imagen1">
-                </div>
-                <div class="carousel-item">
-                    <img src="imagenes/imagen 3.jpg" class="d-block w-90" alt="imagen2">
-
-                </div>
-                <div class="carousel-item">
-                    <img src="imagenes/imagen 4.jpg" class="d-block w-90" alt="imagen3">
+            <div class="card-group">
+                <div class="card w-100 card-border mb-5">
+                <img src="imagenes/imagen 2.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                    <h5 class="card-title">Parque Nacional Iguazu</h5>
+                    <p class="card-text">Fundado en 1934, el Parque Nacional Iguazú - área que alberga a las Cataratas - se ubica a menos de 20 kilómetros de la ciudad misionera. Se compone de un área de 67.720 hectáreas en el extremo norte de Misiones, en la Región Litoral.
+                                        Las Cataratas tienen un ancho de 2.7 kilómetros (1,7 millas). Su altura varía entre los 60 metros (200 pies) y 82 metros (o 269 pies), y su caudal de agua promedio es de 1.800 metros cúbicos por segundo. Dos tercios de las Cataratas del Iguazú están en el lado de Argentina.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
+                <div class="card w-100 card-border mb-5">
+                    <img src="imagenes/imagen 3.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Norte</h5>
+                    <p class="card-text">Es ante todo, una geografía de notables contrastes, extraordinaria belleza paisajística y riqueza cultural. La aridez de la Puna; la exuberante selva de las Yungas; planicies santiagueñas casi a nivel del mar, y los más de 6.800 metros de la Cordillera de los Andes. Allí donde la tierra muestra sus capas geológicas en Talpampaya, poniendo al descubierto secreteos milenarios, y donde cada paisaje norteño enmarca antiguas ruinas, fortalezas del período incaico, capillas coloniales, catedrales y basílicas.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+                <div class="card w-100 card-border mb-5">
+                    <img src="imagenes/imagen 4.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">San Carlos de Bariloche</h5>
+                    <p class="card-text">Entre las ciudades turísticas más importantes se encuentra San Carlos de Bariloche. Una ciudad ubicada en un entorno soñando, rodeada de montañas, bosques y el lago Nahuel Huapi. Cuenta con el centro de esquí del Cerro Catedral, uno de los más importantes del hemisferio sur y sede permanente de campeonatos de esquí y snowboard para profesionales y aficionados. Y en verano, son sus playas, lagos y ríos los que adquieren protagonismo junto a la posibilidad de realizar todo tipo de deportes náuticos o jugar al golf.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
             </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
     

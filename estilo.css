@@ -9,8 +9,8 @@ body{
 }
 
 .logobrand {
-    min-width: 100px;
-    max-width: 120px;
+    min-width: 90px;
+    max-width: 100px;
 }
 
 #hero {
@@ -33,7 +33,19 @@ p{
     font-family:'titillium Web';
 }
 
-.carousel-inner{
-    width: 90px;
-    margin: auto;
+.card-border{
+    padding: 5px;
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0,2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.portfolio{
+    background: linear-gradient(rgb(70, 154, 233);
+
 }
